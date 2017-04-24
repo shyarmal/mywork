@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class MissingInteger {
 
 	public static int solution (int[] a) {
-		if (a.length > 100_000) {
+		if (a.length > 100_000 || a.length < 0) {
 			throw new IllegalArgumentException();
 		}
 		Arrays.sort(a);

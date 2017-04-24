@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class FrogRiverOne {
 
 	public static int solution (int x, int[] a) {
-		if (x > 100_000 || a.length > 100_000)
+		if (x > 100_000 || a.length > 100_000 || a.length == 0)
 			throw new IllegalArgumentException();
 		int[] b = new int[x];
 		for (int i = 0; i < a.length; i++) {
