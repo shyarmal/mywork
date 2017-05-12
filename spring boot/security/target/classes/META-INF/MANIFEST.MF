@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Spring Boot Security Example
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: kasundf
+Implementation-Vendor-Id: example.spring.boot
+Build-Jdk: 1.8.0_121
+Implementation-URL: http://projects.spring.io/spring-boot/security/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
