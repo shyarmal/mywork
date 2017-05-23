@@ -1,4 +1,4 @@
-Set Up in windows environment.
+Set up in Windows environment.
 
 1. Go to bin/windows Kafka directory: cd <path to kafka>/bin/windows
 2. Run zookeeper: zookeeper-server-start.bat ../../config/zookeeper.properties
