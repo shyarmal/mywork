@@ -4,7 +4,10 @@ import java.util.Collections;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Ex4 {
+/**
+* This was a hacker rank problem.
+*/
+public class ReverseAndCapitalize {
 
 	// reverse the sentence and capitalize the first letter of every word.
 	public static String reverseAndCapitalise(String sentenceIn) {
