@@ -16,8 +16,8 @@ public class IPAddressMatch {
 	 * return a list containing entries which confirms IPv4 addresses IPv6. Any entry that 
 	 * is not an IP address should be 'Neither'. 
 	 * 
-	 * @param ipAddresses
-	 * @return
+	 * @param ipAddresses, the list to be verified.
+	 * @return : result list that says whether entries are IPv4, IPv6 or Neither.
 	 */
 	static List<String> ipMatch(List<String> ipAddresses) {
 		List<String> result = new LinkedList<String>();
