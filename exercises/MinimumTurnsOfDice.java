@@ -22,10 +22,11 @@ public class MinimumTurnsOfDice {
 		int otherNumberCount = (int) Arrays.stream(A).boxed().filter(i -> i != min && i != max).count();
 		if (otherNumberCount == 0) {
 			int twoTurnCounts = (int) Arrays.stream(A).boxed().filter(i -> i != min).filter(i -> i + min == 7).count();
-	        return 2 * twoTurnCounts;
+			int oneTurnCounts = (int) Arrays.stream(A).boxed().filter(i -> i != min).filter(i -> i + min != 7).count();
+	        	return oneTurnCounts + (2 * twoTurnCounts);
 		}
-        return otherNumberCount + 1;
-    }
+        	return otherNumberCount + 1;
+    	}
 	
 	public static void main(String[] args) {
 		System.out.println(solution(new int[]{1, 3, 2, 6}));
